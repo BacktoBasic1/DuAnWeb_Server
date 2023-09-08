@@ -17,11 +17,7 @@ const sequelize = require('./app/config/db.config.js');
 })();
 
 
-var corsOptions = {
-  origin: "https://frontendtestfinal.onrender.com/"
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 
 app.use(express.json());
