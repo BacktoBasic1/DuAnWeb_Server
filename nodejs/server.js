@@ -18,7 +18,7 @@ const sequelize = require('./app/config/db.config.js');
 
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://frontendtestfinal.onrender.com/"
 };
 
 app.use(cors(corsOptions));
